@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {CometChat} from '@cometchat-pro/chat';
+import GroupListScreen from './Grouplistscreen';
 
 function App() {
   var appID = '240805dc16cf0e12';
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <View style={styles.container}>
-      <Text></Text>
+      <GroupListScreen/>
     </View>
   );
 }
